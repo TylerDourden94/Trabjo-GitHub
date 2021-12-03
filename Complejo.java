@@ -28,7 +28,11 @@ public class Complejo {
     public void cambia_Real(double real) {
         this.real = real;
     }
-
+    
+    public setReal(){
+        this.real = 10*real;
+    }
+    
     public void cambia_Imag(double imag) {
         this.imag = imag;
     }
